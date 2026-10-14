@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "陣内どこ？",
+    "slug": "jinnai-doko",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "jinnaidoko",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0D1117",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.jinnaidoko.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0D1117",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "experiments": {
+      "baseUrl": "/jinnai-doko/"
+    }
+  }
+}
